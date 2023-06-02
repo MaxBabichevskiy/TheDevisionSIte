@@ -1,0 +1,209 @@
+.topPanel{
+background: #DAD5CB;
+position: fixed;
+width: 1920px;
+height: 150px;
+left: 0px;
+top: 0px;
+z-index: 3;
+}
+
+.backPanel{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  overflow: hidden;
+  left: 0px;
+  top: 0px;
+  z-index: 1;
+}
+
+#logo{
+    position: fixed;
+    width: 300;
+    height: 150;
+    left: 0px;
+    top: 0px;
+    z-index: 3;
+    transition: transform 0.3s ease;
+}
+
+#logo:hover {
+    transform: scale(1.4);
+  }
+
+#instruments{
+    position: absolute;
+    width: 353px;
+    height: 52px;
+    left: 375px;
+    top: 15px;
+    margin: 0px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 43px;
+    line-height: 52px;   
+    color: #000000;
+    z-index: 3;
+}
+
+#instruments p,#news p,#intelligence p{
+  margin-bottom: 0px;
+}
+
+#instruments img{
+    display: block;
+    width: auto;
+    height: auto;
+    margin-top: 1px;
+    margin-left: 100px;
+    transition: transform 0.3s ease;
+}
+
+#intelligence img:hover,#news img:hover,#instruments img:hover {
+    transform: scale(1.4);
+  }
+
+#news{
+position: absolute;
+width: 224px;
+height: 52px;
+left: 905px;
+top: 15px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 43px;
+line-height: 52px;
+color: #000000;
+z-index: 3;
+}
+
+#news img{
+    display: block;
+    margin-top: 1px;
+    margin-left: 50px;
+    transition: transform 0.3s ease;
+}
+
+#intelligence{
+position: absolute;
+width: 244px;
+height: 52px;
+left: 1360px;
+top: 15px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 43px;
+line-height: 52px;
+color: #000000;
+z-index: 3;
+}
+
+#intelligence img{
+    display: block;
+    margin-top: 1px;
+    margin-left: 70px;
+    transition: transform 0.3s ease;
+}
+/* ----------------------------------------------------------------------- */  
+#first{
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    width: 350px;
+    height: 400px;
+    left: 316px;
+    top: 150px;
+}
+
+#second{
+  text-align: center;
+  position: relative;
+  z-index: 2;
+  width: 350px;
+  height: 400px;
+  left: 798px;
+  top: -250px;
+}
+
+#third{
+  text-align: center;
+  position: relative;
+  z-index: 2;
+  width: 350px;
+  height: 400px;
+  left: 1273px;
+  top: -650px;
+}
+
+#fourth{
+  text-align: center;
+  position: relative;
+  z-index: 2;
+  width: 350px;
+  height: 400px;
+  left: 316px;
+  top: -640px;
+}
+
+#fifth{
+  text-align: center;
+  position: relative;
+  z-index: 2;
+  width: 350px;
+  height: 400px;
+  left: 798px;
+  top: -1040px;
+}
+
+#sixth{
+  text-align: center;
+  position: relative;
+  z-index: 2;
+  width: 350px;
+  height: 400px;
+  left: 1273px;
+  top: -1440px;
+}
+  
+  #first img, #second img, #third img, #fourth img, #fifth img, #sixth img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: -30px;
+    transition: transform 0.3s ease;
+  }
+  
+  #first p, #second p, #third p, #fourth p, #fifth p, #sixth p {
+    position: absolute;
+    bottom: 150px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    margin: 0px;
+    margin-top: -10px;
+  }
+  
+  #first img:hover, #second img:hover, #third img:hover, 
+  #fourth img:hover, #fifth img:hover, #sixth img:hover{
+    transform: scale(1.2);
+  }
+
+  #first p:hover, #second p:hover, #third p:hover, 
+  #fourth p:hover, #fifth p:hover, #sixth p:hover{
+    transform: scale(1.2);
+    color: orange;
+  }
+/* ----------------------------------------------------------------- */
+
